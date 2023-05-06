@@ -1,0 +1,25 @@
+{
+  "name": "blind75_algorithms",
+  "version": "1.0.0",
+  "description": "A collection of LeetCode - Blind75  algorithm solutions in JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/njoyedevs/blind75_algorithms.git"
+  },
+  "keywords": [
+    "blind75",
+    "leetcode",
+    "algorithms",
+    "javascript"
+  ],
+  "author": "njoyedevs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/njoyedevs/blind75_algorithms/issues"
+  },
+  "homepage": "https://github.com/njoyedevs/blind75_algorithms#readme"
+}
