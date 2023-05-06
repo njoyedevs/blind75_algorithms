@@ -14,10 +14,10 @@ npm install blind75_algorithms
 In JavaScript file, import the function using either CommonJS or ES Module syntax, depending on project setup:
 ```js
 // Using CommonJS
-const { containsDuplicate } = require('blind75_algorithms');
+const { containsDuplicates } = require('blind75_algorithms');
 
 // Using ES Modules
-import { containsDuplicate } from 'blind75_algorithms';
+import { containsDuplicates } from 'blind75_algorithms';
 ```
 
 ## Example Usage
@@ -25,7 +25,7 @@ import { containsDuplicate } from 'blind75_algorithms';
 Then, use the specific function:
 ```js
 // Using CommonJS
-const { containsDuplicate } = require('blind75_algorithms');
+const { containsDuplicates } = require('blind75_algorithms');
 
 // Using ES Modules
 // import { containsDuplicate } from 'blind75_algorithms';
@@ -35,9 +35,9 @@ const nums1 = [1, 2, 3, 1]; // Duplicates in array => true
 const nums2 = []; // Empty array => false
 const nums3 = [1, 2, 3]; // No duplicates in array => false
 
-console.log(containsDuplicate(nums1)); // Output: true
-console.log(containsDuplicate(nums2)); // Output: false
-console.log(containsDuplicate(nums3)); // Output: false
+console.log(containsDuplicates(nums1)); // Output: true
+console.log(containsDuplicates(nums2)); // Output: false
+console.log(containsDuplicates(nums3)); // Output: false
 ```
 
 This example demonstrates how users of this package can easily import and use the containsDuplicate function from this blind75_algorithms package in their own projects.
@@ -46,6 +46,11 @@ This example demonstrates how users of this package can easily import and use th
 
 This package includes the following algorithms:
 
-* containsDuplicate
+* containsDuplicates
+* groupAnagrams
+* isAnagram
+* longestConsecutiveSequence
+* productExceptSelf
+* topKFrequentElements
 * twoSum
-* maxSubArray
+* validPalindrome
