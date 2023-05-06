@@ -9,7 +9,6 @@ var containsDuplicate = function(nums) {
             return true
         }
         set.add(n)
-        console.log(set)
     }
     return false
 };
